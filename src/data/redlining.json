@@ -1,0 +1,46 @@
+{
+  "research": [
+    {
+      "slug": 1,
+      "topic": "Redlining Overview ",
+      "summary": "- The FHA and banks conjured up an evil scheme to block minority communities from being able to buy a home. They physically circled areas of cities with a red marker to indicate high-risk zones that were unlikely to pay back loans, therefore making them ineligible for the new opportunities. As you probably guessed, they unapologetically circled predominantly black neighborhoods and labeled them as “high risk.” This concentrated minority communities into undesirable neighborhoods. \n-US Federal Reserve shows that on average the difference in wealth is about $10,000 compared to $100,000.\n- As we have seen from the data, black Americans are more likely to need medical care as a direct consequence of air pollution. This article shows how this can be problematic. They show that minority communities are much less likely to have access to health care coverage and insurance. \n- In a meta-analysis of hundreds of studies that show an association between living near hazardous waste sites, industrial sites, cropland with pesticide applications, highly trafficked roads, nuclear power plants, and gas stations or repair shops is related to an increased risk of adverse health outcomes. I think this is specifically interesting because they dig into a plethora of effects of living in these zones. The studies above mainly discuss respiratorily issues, but this one is different. This one dives into a ton of adverse effects such as low birth weight, childhood cancer, and other developmental issues associated. ",
+      "source": "- Coates, T. (2014).The Case for Reparations.”The Atlantic, Atlantic Media Company, https://www.theatlantic.com/magazine/archive/2014/06/the-case-for-reparations/361631/\n- Aladangady, A. Forde, A. (2021). Wealth Inequality and the Racial Wealth Gap. Board of Governors of the Federal Reserve System. https://www.federalreserve.gov/econres/notes/feds-notes/wealth-inequality-and-the-racial-wealth-gap-20211022.html#:~:text=In%20the%20United%20States%2C%20the,percent%20as%20much%20net%20wealth.\n- Artiga, S. Hill, L. Orgera, K. (2021. Health Coverage by Race and Ethnicity, 2010-2019. KFF. https://www.kff.org/racial-equity-and-health-policy/issue-brief/health-coverage-by-race-and-ethnicity/\n- Brender, J. D., Maantay, J. A., & Chakraborty, J. (2011). Residential proximity to environmental hazards and adverse health outcomes. American journal of public health, 101 Suppl 1(Suppl 1), S37–S52. https://doi.org/10.2105/AJPH.2011.300183\n"
+    },
+    {
+      "slug": 2,
+      "topic": "Highways",
+      "summary": "- This research looks at a massive data set of neighborhoods that are living within 200m of highways and attribute it to poorer health in these regions. They test for the various high densities of pollution such as (UFP), black carbon (BC), oxides of nitrogen (NOx), and carbon monoxide (CO). They then go on to do statistical analysis to show how PM has associations with cardiac and pulmonary mortality. They even cross-check this against residents living near busy urban and suburban roads to see if the effects are the same.\n",
+      "source": "- Brugge, D., Durant, J.L. & Rioux, C. (2007). Near-highway pollutants in motor vehicle exhaust: A review of epidemiologic evidence of cardiac and pulmonary health risks. Environ Health 6, 23. https://doi.org/10.1186/1476-069X-6-23"
+    },
+    {
+      "slug": 3,
+      "topic": "Toxic Facilities ",
+      "summary": "- Heavy metal refineries are typically positioned near low-income and many times minority populations in urban and rural settings. In urban settings, we can show a correlation between high densities of these toxic facilities and redlined areas. It is a very well known Environmental Justice issue that these facilities are connected with poorer health.",
+      "source": "- Jeroen E. Sonke, Jörg Schäfer, Jérôme Chmeleff, Stéphane Audry, Gérard Blanc, Bernard Dupré, Sedimentary mercury stable isotope records of atmospheric and riverine pollution from two major European heavy metal refineries,\nChemical Geology, Volume 279, Issues 3–4, 2010, Pages 90-100, \n \tISSN 0009-2541, https://doi.org/10.1016/j.chemgeo.2010.09.017."
+    },
+    {
+      "slug": 4,
+      "topic": "Parks ",
+      "summary": "-  This article breaks down a study that shows a very high correlation between greenspaces and PM reduction. We all know that green spaces and vegetation sequester carbon, but this study shows that it can significantly clean an area's air. This research is used to show how urban planning can actually be used to help remediate some of the long-held historical pollution issues that redlined communities face. It also dives a little deeper into some of the best vegetation and green space sizes we should implement to get the best results.",
+      "source": "- Deiner, A., and P. Madu. (2021) “How Can Vegetation Protect Us from Air Pollution? A Critical Review on Green Spaces' Mitigation Abilities for Air-Borne Particles from a Public Health Perspective - with Implications for Urban Planning.” The Science of the Total Environment, U.S. National Library of Medicine,\nhttps://pubmed.ncbi.nlm.nih.gov/34271387/.\n"
+    },
+    {
+      "slug": 5,
+      "topic": "Cancer",
+      "summary": "- This study uses Massachusetts Cancer Registry data to show an extremely high correlation between the historic redlining practices and Breast Cancer Incidence and Hormone Receptor Status. I think using an entire state's cancer registry data to show this correlation is very powerful. This study is not to be used to show the exact reasons why redlining is associated with cancer rates. Rather, it is used as a way to just show that there is a pure correlation. The majority of my studies are on very specific causes of health issues. This is rather a larger research study that aims to show a direct correlation between cancer to redlining in an entire state.",
+      "source": "- Emily W., Waterman p., Testa., Chen J., (2022) Breast Cancer Incidence, Hormone Receptor Status, Historical Redlining, and Current Neighborhood Characteristics in Massachusetts, 2005-2015, JNCI Cancer Spectrum. https://doi.org/10.1093/jncics/pkac016"
+    },
+    {
+      "slug": 6,
+      "topic": "Water",
+      "summary": "- Water, is an essential aspect of all of our lives and diets. Clean water is a topic that seems to be glossed over and out of mind for most Americans. Sadly, redlined communities do not have this luxury. Historic redlining came with a plethora of infrastructural inequities, including significantly lower funding for sewer and plumbing systems. This article highlights the Flint, Michigan water crisis from a different lens than what is normally discussed. They can present data, statistics and maps that support that the crisis was “50 years in the making.” They are referring to the well-studied idea that the low investment and low political clout of these communities were a driving factor in their vulnerability. The dive into some of the long-lasting impacts that generations to come will endure, including higher rates of cancers and significant increases in children being born with learning disabilities. As if redlining was not damaging enough, now these communities must hold the financial and emotional burdens of this event. ",
+      "source": "- Highsmith, A. (2016). Op-Ed: Flint’s toxic water crisis was 50 years in the making. Los Angeles Times. https://www.latimes.com/opinion/op-ed/la-oe-0131-highsmith-flint-water-crisis-20160131-story.html"
+    },
+    {
+      "slug": 7,
+      "topic": "Austin ",
+      "summary": "- City of Austin: This article discusses many public health disparities that are a direct cause of redlining practices. First they present the maps that were actually used and drawn on, by the banks, to show physical evidence of Austin’s redlining history. One of the largest discrepancies that they discuss in their article is life expectancy. Using census data and hospital data, they were able to prove that redlined communities have an average of 10 fewer years in life expectancy. That number is insane. They then dive into some of the illnesses that are to blame for the lower life expectancy of those residing in East Austin. Many of the illnesses are the exact culprits discussed over an over again with environmental health pollutants. Cancers, respiratory issues, and heart disease are all on the list. Although concentrated poverty and lack of access to healthcare are also contributors to the lower life expectancy, environmental toxins seem to be a likely culprit. ",
+      "source": "- Crespo, V. (2020). Redlining and Health Disparities in East Austin. Medium. https://vacrespo.medium.com/redlining-and-health-disparities-in-east-austin-2d6e5acb67d3"
+    }
+  ]
+}

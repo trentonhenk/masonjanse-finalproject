@@ -1,0 +1,35 @@
+{% extends '_templates/base.njk' %}
+
+{% block page_title %}Academic Research{% endblock %}
+{% block content %}
+<div class="container">
+<div class="row">
+  <div class="col-lg-8 col-md-5 col-sm-4 offset-md-3">
+    <h1 id="story-title" class="text-center">Redlining</h1>
+  </div>
+</div>
+</div>
+  <hr class="bg-dark border-2 border-top border-dark m-3">
+<div style="overflow-x:auto;">
+  <table class="table mx-3">
+    <thead class="table-dark">
+      <tr>
+        <th scope="col">Topic</th>
+        <th scope="col">Summary</th>
+        <th scope="col">Source</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for research in redlining.research %}
+      <tr>
+        <th scope="row">{{ research.topic }}</th>
+        <td>{{ research.summary }}</td>
+        <td>{{ research.source }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+<hr class="bg-dark border-2 border-top border-dark m-3">
+
+{% endblock %}

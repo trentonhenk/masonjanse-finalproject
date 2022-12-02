@@ -1,30 +1,14 @@
 {% extends '_templates/base.njk' %}
 
-{% block page_title %}Index page title{% endblock %}
-
-{% block page_description %}The index search description for this page goes here.{% endblock %}
-
 {% block content %}
 <div class="container">
-  <h1>Main headline here</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in facilisis velit, aliquam congue dui. Mauris id mi quam. Nam enim leo, bibendum vel efficitur id, elementum malesuada est. Pellentesque interdum tempus eros nec iaculis. Quisque ac est dictum, vehicula nulla quis, condimentum dui.</p>
-  <h2>Library books loop</h2>
-  <p>This loops through data that came from a Google Docs example.</p>
   <div class="row">
-    {% for book in library.books %}
-      <div class="col">
-        <img src="img/{{ book.slug }}.jpg" alt="" class="img-fluid">
-        <h3><a href="books/{{ book.slug }}.html">{{ book.title }}</a></h3>
-      </div>
-    {% endfor %}
+    <div class="col">
+      <h1>Introduction</h1>
+      <p>Pollution does not affect all people the same. In the United States, urban, redlined communities are at a significantly higher risk of a plethora of illnesses and diseases, and in some cases death as a result of higher exposure to environmental health hazards.</p>
+    </div>
+    <p>Over 9 million people worldwide die every year from poor air quality. The United States has decreased air pollution deaths since the clean air act of 1963. Although our air is much cleaner since this bill, in 2020, estimates still associate 100,000 to 200,000 deaths with poor air quality. On top of premature death, a growing number of life-altering illnesses and diseases such as ischemic heart disease, stroke, chronic obstructive pulmonary disease (COPD), lung cancer, and acute lower respiratory infections, are still present and growing. Unsurprisingly, the impacts of air and industrial pollution affect redlined communities at much higher rates. Flint, Michigan highlights similar structural issues, showing that water quality is not equal in all areas or among all races. With poor political protection, unfair zoning, and low mobility, these communities are trapped, gasping for clean air. By analyzing multiple cities and looking at human health data, we can find a clear link between the 1930s policy and health concerns. Lastly, we can build a case as to why this is happening, looking towards industrial zoning, highway proximity, low density of greenspaces, and more. After tackling the issue from a broader perspective, diving into the issue at home, here in Austin, will be useful for showing that these issues exist in our backyard and that the impacts are visible and measurable.</p>
+    <p>Please visit the pages in the menu for further information, maps and pictures. Let’s make a change today.</p>
   </div>
-  <h2>Bookstores loop</h2>
-  <p>This loops through data that came from a Google Sheet example.</p>
-  <hr>
-  {% for store in bookstores.stores %}
-    <h3><a href="{{ store.url }}" target="_blank">{{ store.name }}</a></h3>
-    <p>{{ store.address}}, {{ store.city }}, {{ store.state }} {{ store.zip }}</p>
-    <hr>
-  {% endfor %}
 </div>
 {% endblock %}
